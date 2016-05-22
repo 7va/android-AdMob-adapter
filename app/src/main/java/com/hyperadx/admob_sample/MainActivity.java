@@ -1,4 +1,4 @@
-package admob.dispply.com.dispplyadmobadaptersample;
+package com.hyperadx.admob_sample;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.google.android.gms.ads.AdRequest;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
         mAdapterInterstitial = new com.google.android.gms.ads.InterstitialAd(this);
         mAdapterInterstitial.setAdUnitId(
-                "ca-app-pub-6172762133617463/1894001031"
+                "ca-app-pub-6172762133617463/5529648238"
         );
         mAdapterInterstitial.setAdListener(new com.google.android.gms.ads.AdListener() {
             @Override
