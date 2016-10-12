@@ -15,16 +15,29 @@
 
 * First of all you need to add new app in AdMob console.
 
+<img src="/docs/images/1.png" title="sample"/>
+
+<img src="/docs/images/2.png" title="sample" width="500" height="600" />
+
 * You will get UnitId string like 'ca-app-pub-*************/*************'.
 For the next few hours you may get the AdMob errors with codes 0 or 2. Just be patient.
 
 Then you need to add new mediation source.
 
+<img src="/docs/images/3.png" title="sample"/>
+
+<img src="/docs/images/4.png" title="sample"/>
+
+<img src="/docs/images/5.png" title="sample"/>
+
 ### Interstitial
 
 * Fill `Class Name` field with a `com.hyperadx.admob.HADInterstitialEvent` string. And a `Parameter` with your HyperAdx statement string.
 
-* Setup eCPM for new network
+<img src="/docs/images/6.png" title="sample"/>
+
+* Setup eCPM for new network 
+<img src="/docs/images/7.png" title="sample"/>
 
 Now you can setting up your android project.
 
