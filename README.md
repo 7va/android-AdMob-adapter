@@ -17,7 +17,7 @@
 
 <img src="/docs/images/1.png" title="sample"/>
 
-<img src="/docs/images/2.png" title="sample" width="500" height="600" />
+<img src="/docs/images/2.png" title="sample" width="500" height="500" />
 
 * You will get UnitId string like 'ca-app-pub-*************/*************'.
 For the next few hours you may get the AdMob errors with codes 0 or 2. Just be patient.
