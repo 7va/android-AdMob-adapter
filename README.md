@@ -17,7 +17,7 @@
 
 <img src="/docs/images/1.png" title="sample"/>
 
-<img src="/docs/images/2.png" title="sample" width="500" height="500" />
+<img src="/docs/images/2.png" title="sample" width="500" height="400" />
 
 * You will get UnitId string like 'ca-app-pub-*************/*************'.
 For the next few hours you may get the AdMob errors with codes 0 or 2. Just be patient.
@@ -54,7 +54,7 @@ dependencies {
     compile 'com.google.android.gms:play-services-base:9.0.2'
 }
 ```
-> Just create AdMob interstitial Ad as usually:
+Just create AdMob interstitial Ad as usually:
 
 ```java
 package com.hyperadx.admob_sample;
