@@ -1,5 +1,5 @@
 
-![HyperADx Logo](http://d2n7xvwjxl8766.cloudfront.net/assets/site/logo-e04518160888e1f8b3795f0ce01e1909.png) 
+![HyperADX Logo](http://d2n7xvwjxl8766.cloudfront.net/assets/site/logo-e04518160888e1f8b3795f0ce01e1909.png) 
  
 ![AdMob Logo](https://www.google.com/images/logos/admob-logo.svg)
 
@@ -32,7 +32,7 @@ Then you need to add new mediation source.
 
 ### Interstitial
 
-* Fill `Class Name` field with a `com.hyperadx.admob.HADInterstitialEvent` string. And a `Parameter` with your HyperAdx statement string.
+* Fill `Class Name` field with a `com.hyperadx.admob.HADInterstitialEvent` string. And a `Parameter` with your HyperADX statement string.
 
 <img src="/docs/images/6.png" title="sample"/>
 
@@ -41,7 +41,7 @@ Then you need to add new mediation source.
 
 Now you can setting up your android project.
 
-* Put HyperAdx-SDK and AdMob-adapter in 'libs' folder.
+* Put HyperADX-SDK and AdMob-adapter in 'libs' folder.
 * Add those lines in your `build.gradle` file:
 
 **NOTE** - Admob interstitial may not work in emulator. Use real devices even for tests!
