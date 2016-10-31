@@ -39,7 +39,7 @@ Then you need to add new mediation source.
 * Setup eCPM for new network 
 <img src="/docs/images/7.png" title="sample"/>
 
-Now you can setting up your android project.
+Now you can start setting up your android project.
 
 * Put HyperADX-SDK and AdMob-adapter in 'libs' folder.
 * Add those lines in your `build.gradle` file:
