@@ -32,6 +32,8 @@ proguard/
 # Android Studio captures folder
 captures/
 
+projectFilesBackup/
+
 # Intellij
 *.iml
 .idea/workspace.xml
@@ -52,3 +54,5 @@ google-services.json
 freeline.py
 freeline/
 freeline_project_description.json
+.idea/vcs.xml
+app/src/main/res/drawable/
