@@ -3,6 +3,7 @@ package com.hyperadx.admob;
 import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.Toast;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.mediation.MediationAdRequest;
@@ -129,6 +130,13 @@ public class HADInterstitialEvent implements CustomEventInterstitial {
                 Log.i("HAD AD", "Interstitial Ad was clicked");
                 listener.onAdClicked();
             }
+
+            @Override
+            public void onVideoCompleted(Ad ad) {
+                Log.i("HAD AD", "Rewarded Video Completed. Now you may gift some profit to user!");
+            }
+
+
         });
 
         interstitialAd.loadAd();
